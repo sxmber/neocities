@@ -1,14 +1,53 @@
-html {
-    background: url("https://oldschool.runescape.wiki/images/Login_background_%28Halloween%29.jpg?b23a9") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+* {
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
 }
-div {
+
+html {
+    background: url("https://biggulpsupreme.neocities.org/space4.gif");
+    height: 1000px;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=19387), auto;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
 
+}
+
+.left {
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    /* background-color: green; */
+
+}
+
+.left p {
+    color: white;
+}
+
+#bar {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#unreg {
+    transform: translate(0, -4.5px);
+    width: 300px;
+    margin-top: 0;
+}
+
+#skate {
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+}
+
+#logo {
+    height: 100px;
+    width: 430;
+    margin-top: 35px;
 }
 
 footer {
