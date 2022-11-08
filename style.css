@@ -1,0 +1,19 @@
+html {
+    background: url("https://oldschool.runescape.wiki/images/Login_background_%28Halloween%29.jpg?b23a9") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+}
