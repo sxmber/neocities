@@ -9,6 +9,34 @@ html {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=19387), auto;
 }
 
+.notepad {
+    position: absolute;
+    width: 688px;
+    height: 417px;
+}
+
+#note {
+    position: absolute;
+    transform: translate(0, -175px);
+    z-index: 1;
+}
+
+.top-left {
+    box-sizing: border-box;
+    position: absolute;
+    color: black;
+    z-index: 2;
+    /* top: -120px;
+    right: 500px; */
+    width: 688px;
+    height: 417px;
+    transform: translate(0, -175px);
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
