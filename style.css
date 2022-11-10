@@ -18,7 +18,7 @@ html {
 
 #note {
     position: absolute;
-    /* transform: translate(0, -175px); */
+
     z-index: 1;
 
 }
@@ -28,11 +28,9 @@ html {
     position: absolute;
     color: black;
     z-index: 2;
-    /* top: -120px;
-    right: 500px; */
     width: 688px;
     height: 417px;
-    /* transform: translate(0, -175px); */
+
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -49,12 +47,14 @@ html {
     width: 450px;
     height: 200px;
     margin: auto;
-    /* background-color: green; */
+
 
 }
 
 .left p {
     color: white;
+    text-align: center;
+
 }
 
 #bar {
@@ -87,7 +87,25 @@ footer {
     margin: auto;
 }
 
-@media only screen and (max-width: 1280px) and (max-height: 720px) {
+.guestbook {
+    color: white;
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 65%;
+    bottom: 30%;
+    transform: rotate(20deg);
+}
+
+.guestbook img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* media query doesn't seem to work on neocities, so commenting this out until i figure it out */
+/* @media screen and (max-width: 1280px) and (max-height: 720px) {
     .notepad {
         position: absolute;
         width: 540px;
@@ -107,13 +125,11 @@ footer {
         color: black;
         z-index: 2;
         width: 100%;
-        /*688px*/
         height: 100%;
-        /*417px*/
         padding-top: 50px;
         padding-left: 10px;
         padding-right: 10px;
 
     }
 
-}
+} */
